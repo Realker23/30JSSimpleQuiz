@@ -1,0 +1,76 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #001e4d;
+}
+
+.app{
+    width: 90%;
+    max-width: 60rem;
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 3rem;
+    margin:10rem auto 0;
+}
+.app h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #001e4d;
+    padding-bottom: 3rem;
+    border-bottom: .1rem solid #333;
+}
+
+.quiz{
+    padding: 2rem 0;
+}
+
+.quiz h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #001e4d;
+}
+
+.btn{
+    width: 100%;
+    background-color: #fff;
+    border: 0.1rem solid #555;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 1rem;
+    cursor: pointer;
+    text-align: left;
+    transition: all .2s ease-in;
+}
+
+.btn:hover{
+    background-color: #333;
+    color: #fff;
+}
+
+#next-btn{
+    padding: 1rem 2rem;
+    margin: 1rem auto 0;
+    background: #001e4d;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    display: block;
+    width: 15rem;
+    cursor: pointer;
+}
+
+.correct {
+    background-color: #9aeabc;
+}
+
+.incorrect{
+    background-color: #ff9393;
+}
